@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "106590429169",
+    "project_id": "mybrary-97131",
+    "storage_bucket": "mybrary-97131.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106590429169:android:66d9aee57a99c257052e50",
+        "android_client_info": {
+          "package_name": "com.example.shelfie"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4IykTHXD-h7fhlwRa8t2wUiF7z5YIKhk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
