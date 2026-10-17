@@ -3,6 +3,7 @@ package com.example.shelfie.ui
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.shelfie.data.auth.AuthErrorKind
 import com.example.shelfie.data.auth.AuthRepositoryFactory
 import com.example.shelfie.data.auth.AuthResult
 import com.example.shelfie.data.auth.AuthUser
@@ -118,6 +119,14 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
             onSignedIn(result.user, welcome = "สมัครสมาชิกสำเร็จ ยินดีต้อนรับ!")
         }
         return result
+    }
+
+    suspend fun sendPasswordResetEmail(email: String): AuthResult {
+        val normalized = AuthValidator.normalizeEmail(email)
+        if (normalized.isBlank() || !normalized.contains("@")) {
+            return AuthResult.Failure(AuthErrorKind.INVALID_INPUT, "รูปแบบอีเมลไม่ถูกต้อง")
+        }
+        return auth.sendPasswordResetEmail(normalized)
     }
 
     private fun onSignedIn(user: AuthUser, welcome: String) {

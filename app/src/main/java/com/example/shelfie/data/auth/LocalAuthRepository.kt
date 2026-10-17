@@ -47,7 +47,7 @@ class LocalAuthRepository(context: Context) : AuthRepository {
         if (accounts.containsKey(e)) {
             return AuthResult.Failure(
                 AuthErrorKind.ALREADY_REGISTERED,
-                "อีเมลนี้เคยสมัครสมาชิกไว้แล้ว เข้าสู่ระบบด้วยอีเมลนี้ได้เลย"
+                "อีเมลนี้เคยสมัครสมาชิกไว้แล้ว"
             )
         }
         accounts[e] = newAccount(name.trim(), password)
@@ -68,6 +68,15 @@ class LocalAuthRepository(context: Context) : AuthRepository {
         }
         prefs.edit().putString(KEY_SESSION, e).apply()
         return AuthResult.Success(AuthUser("local:$e", e, account.name))
+    }
+
+    override suspend fun sendPasswordResetEmail(email: String): AuthResult {
+        val e = AuthValidator.normalizeEmail(email)
+        val accounts = readAccounts()
+        if (!accounts.containsKey(e)) {
+            return AuthResult.Failure(AuthErrorKind.NOT_REGISTERED, "ไม่พบบัญชีที่ใช้อีเมลนี้ในระบบ")
+        }
+        return AuthResult.Success(AuthUser("local:$e", e, accounts[e]?.name ?: ""))
     }
 
     override suspend fun updateDisplayName(name: String) {

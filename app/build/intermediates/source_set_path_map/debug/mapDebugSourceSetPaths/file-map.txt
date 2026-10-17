@@ -1,0 +1,72 @@
+com.example.shelfie.app-ui-util-release-0 /Users/saifa/.gradle/caches/8.9/transforms/0058d2e23e783f104807184468131d4b/transformed/ui-util-release/res
+com.example.shelfie.app-material-ripple-release-1 /Users/saifa/.gradle/caches/8.9/transforms/091638a16803082578d5906433b9fa22/transformed/material-ripple-release/res
+com.example.shelfie.app-play-services-measurement-api-22.1.2-2 /Users/saifa/.gradle/caches/8.9/transforms/0d66420a0ebac36255c3ae5c84a6e18b/transformed/play-services-measurement-api-22.1.2/res
+com.example.shelfie.app-ui-tooling-data-release-3 /Users/saifa/.gradle/caches/8.9/transforms/149404291ddc45a744369e4fc8515e54/transformed/ui-tooling-data-release/res
+com.example.shelfie.app-lifecycle-viewmodel-release-4 /Users/saifa/.gradle/caches/8.9/transforms/159cf24e9b554531286a5b878c22a98e/transformed/lifecycle-viewmodel-release/res
+com.example.shelfie.app-animation-release-5 /Users/saifa/.gradle/caches/8.9/transforms/1dbfa05fced29c2c6d15a33924c84f72/transformed/animation-release/res
+com.example.shelfie.app-navigation-common-2.8.5-6 /Users/saifa/.gradle/caches/8.9/transforms/2d605057ea047d6a27c19ead309fc5d4/transformed/navigation-common-2.8.5/res
+com.example.shelfie.app-graphics-path-1.0.1-7 /Users/saifa/.gradle/caches/8.9/transforms/2d6239cfa09e2e847cb8cca89c600889/transformed/graphics-path-1.0.1/res
+com.example.shelfie.app-ads-adservices-1.0.0-beta05-8 /Users/saifa/.gradle/caches/8.9/transforms/32317dc4afa057cd62642c97cb77bee6/transformed/ads-adservices-1.0.0-beta05/res
+com.example.shelfie.app-lifecycle-viewmodel-compose-release-9 /Users/saifa/.gradle/caches/8.9/transforms/3425640fc1d3bcf51d51838c2f45fa7f/transformed/lifecycle-viewmodel-compose-release/res
+com.example.shelfie.app-animation-core-release-10 /Users/saifa/.gradle/caches/8.9/transforms/3530a031cad0a5890dd72128e4176716/transformed/animation-core-release/res
+com.example.shelfie.app-appcompat-resources-1.6.1-11 /Users/saifa/.gradle/caches/8.9/transforms/3a31cd8ccede2ff8798e075a9208ecfd/transformed/appcompat-resources-1.6.1/res
+com.example.shelfie.app-ui-tooling-preview-release-12 /Users/saifa/.gradle/caches/8.9/transforms/3bc79e8b2c3e6595c3c87d7e67266c13/transformed/ui-tooling-preview-release/res
+com.example.shelfie.app-material-release-13 /Users/saifa/.gradle/caches/8.9/transforms/41139f0bd8f90813be5879b23f5fdbf1/transformed/material-release/res
+com.example.shelfie.app-core-common-2.0.3-14 /Users/saifa/.gradle/caches/8.9/transforms/45993e9908eb632fbd3d30799def3832/transformed/core-common-2.0.3/res
+com.example.shelfie.app-ads-adservices-java-1.0.0-beta05-15 /Users/saifa/.gradle/caches/8.9/transforms/4b797c0d46932040a96bbd8c0efee3cf/transformed/ads-adservices-java-1.0.0-beta05/res
+com.example.shelfie.app-lifecycle-viewmodel-savedstate-2.8.7-16 /Users/saifa/.gradle/caches/8.9/transforms/4da123abcb4b8baffc2ca6b0d2e96a65/transformed/lifecycle-viewmodel-savedstate-2.8.7/res
+com.example.shelfie.app-navigation-common-ktx-2.8.5-17 /Users/saifa/.gradle/caches/8.9/transforms/4f2167974b03e5a65e971b28332be197/transformed/navigation-common-ktx-2.8.5/res
+com.example.shelfie.app-credentials-1.2.0-rc01-18 /Users/saifa/.gradle/caches/8.9/transforms/4f2726168c45495f91a25a08f3399c46/transformed/credentials-1.2.0-rc01/res
+com.example.shelfie.app-lifecycle-runtime-release-19 /Users/saifa/.gradle/caches/8.9/transforms/4f50d30e8768736f9244145f3b37e5a5/transformed/lifecycle-runtime-release/res
+com.example.shelfie.app-savedstate-ktx-1.2.1-20 /Users/saifa/.gradle/caches/8.9/transforms/53a5ac88ab085981343eef959db1a3e3/transformed/savedstate-ktx-1.2.1/res
+com.example.shelfie.app-credentials-play-services-auth-1.2.0-rc01-21 /Users/saifa/.gradle/caches/8.9/transforms/54af34ce44cf3b1fbbfdafbfc0a823f8/transformed/credentials-play-services-auth-1.2.0-rc01/res
+com.example.shelfie.app-firebase-common-21.0.0-22 /Users/saifa/.gradle/caches/8.9/transforms/66c8747acd19d506a4caead91a330d55/transformed/firebase-common-21.0.0/res
+com.example.shelfie.app-core-runtime-2.2.0-23 /Users/saifa/.gradle/caches/8.9/transforms/67406eab7e55ff608a19df281ddf34e8/transformed/core-runtime-2.2.0/res
+com.example.shelfie.app-navigation-compose-2.8.5-24 /Users/saifa/.gradle/caches/8.9/transforms/6ffc3f63373504113ba1ab986f135fa2/transformed/navigation-compose-2.8.5/res
+com.example.shelfie.app-runtime-saveable-release-25 /Users/saifa/.gradle/caches/8.9/transforms/7047632e0d8ebb23ac1d15af799fc7de/transformed/runtime-saveable-release/res
+com.example.shelfie.app-ui-graphics-release-26 /Users/saifa/.gradle/caches/8.9/transforms/714ddba94991cc0eec2cd5466b0b29a0/transformed/ui-graphics-release/res
+com.example.shelfie.app-lifecycle-viewmodel-ktx-2.8.7-27 /Users/saifa/.gradle/caches/8.9/transforms/7eb03e47444af0ccce303b22ee1af81c/transformed/lifecycle-viewmodel-ktx-2.8.7/res
+com.example.shelfie.app-play-services-basement-18.4.0-28 /Users/saifa/.gradle/caches/8.9/transforms/86136019c396e5d55826237dc00f911a/transformed/play-services-basement-18.4.0/res
+com.example.shelfie.app-ui-unit-release-29 /Users/saifa/.gradle/caches/8.9/transforms/86cbad2fda171db08d6ae3000bd49981/transformed/ui-unit-release/res
+com.example.shelfie.app-savedstate-1.2.1-30 /Users/saifa/.gradle/caches/8.9/transforms/87561b82b0a57645841bd0594ccd1074/transformed/savedstate-1.2.1/res
+com.example.shelfie.app-coil-base-2.7.0-31 /Users/saifa/.gradle/caches/8.9/transforms/908165620dd7cd93841f56077d7f5def/transformed/coil-base-2.7.0/res
+com.example.shelfie.app-runtime-release-32 /Users/saifa/.gradle/caches/8.9/transforms/922947e912990e65510f569f594801e2/transformed/runtime-release/res
+com.example.shelfie.app-play-services-base-18.5.0-33 /Users/saifa/.gradle/caches/8.9/transforms/928c159877481a103461667f9633685e/transformed/play-services-base-18.5.0/res
+com.example.shelfie.app-lifecycle-runtime-ktx-release-34 /Users/saifa/.gradle/caches/8.9/transforms/92b81b441012b0772d38ffe231423cf2/transformed/lifecycle-runtime-ktx-release/res
+com.example.shelfie.app-foundation-release-35 /Users/saifa/.gradle/caches/8.9/transforms/935d166d18c152fe864f16d90d5a62da/transformed/foundation-release/res
+com.example.shelfie.app-ui-tooling-release-36 /Users/saifa/.gradle/caches/8.9/transforms/9b5d527c462fef0f7de2de9225d587ff/transformed/ui-tooling-release/res
+com.example.shelfie.app-startup-runtime-1.1.1-37 /Users/saifa/.gradle/caches/8.9/transforms/9c68ef1dbf467deb46d7be9a38f930f0/transformed/startup-runtime-1.1.1/res
+com.example.shelfie.app-play-services-auth-20.7.0-38 /Users/saifa/.gradle/caches/8.9/transforms/9d1a7beae7c79e97fc17589914872b28/transformed/play-services-auth-20.7.0/res
+com.example.shelfie.app-annotation-experimental-1.4.1-39 /Users/saifa/.gradle/caches/8.9/transforms/a116a8378e0e2e5161ff2899f7c669b6/transformed/annotation-experimental-1.4.1/res
+com.example.shelfie.app-lifecycle-livedata-core-ktx-2.8.7-40 /Users/saifa/.gradle/caches/8.9/transforms/a6c76bdfe00d8002054d617f598c0bf8/transformed/lifecycle-livedata-core-ktx-2.8.7/res
+com.example.shelfie.app-material3-release-41 /Users/saifa/.gradle/caches/8.9/transforms/acc8a827ad8dd83b891e2209a3703d19/transformed/material3-release/res
+com.example.shelfie.app-browser-1.4.0-42 /Users/saifa/.gradle/caches/8.9/transforms/ade19b5cbb3a8967ed931e8ac02a6b73/transformed/browser-1.4.0/res
+com.example.shelfie.app-lifecycle-livedata-2.8.7-43 /Users/saifa/.gradle/caches/8.9/transforms/af01803cda3377d76a8f45fddac2ac0b/transformed/lifecycle-livedata-2.8.7/res
+com.example.shelfie.app-core-1.15.0-44 /Users/saifa/.gradle/caches/8.9/transforms/b08ad991addc0f502c24ce65eb59c015/transformed/core-1.15.0/res
+com.example.shelfie.app-lifecycle-runtime-compose-release-45 /Users/saifa/.gradle/caches/8.9/transforms/b6715057a55007d4a517307d82641bdb/transformed/lifecycle-runtime-compose-release/res
+com.example.shelfie.app-navigation-runtime-2.8.5-46 /Users/saifa/.gradle/caches/8.9/transforms/b68b2ad46420a29b6d6335cb4768774d/transformed/navigation-runtime-2.8.5/res
+com.example.shelfie.app-ui-geometry-release-47 /Users/saifa/.gradle/caches/8.9/transforms/c019f7c9a35efa9b610149ececc35688/transformed/ui-geometry-release/res
+com.example.shelfie.app-material-icons-extended-release-48 /Users/saifa/.gradle/caches/8.9/transforms/cc298a1c9e9294904ff8f47099a6a6bd/transformed/material-icons-extended-release/res
+com.example.shelfie.app-emoji2-1.3.0-49 /Users/saifa/.gradle/caches/8.9/transforms/ce71da9dec8819b1a5a50f04e01f93e3/transformed/emoji2-1.3.0/res
+com.example.shelfie.app-ui-release-50 /Users/saifa/.gradle/caches/8.9/transforms/d15fcb307b849c9bab182d7e2c70953c/transformed/ui-release/res
+com.example.shelfie.app-tracing-1.2.0-51 /Users/saifa/.gradle/caches/8.9/transforms/d487f8e7ac6416a65aa4951ea50c7642/transformed/tracing-1.2.0/res
+com.example.shelfie.app-activity-compose-1.9.3-52 /Users/saifa/.gradle/caches/8.9/transforms/d98c9a2e9bca5094131403c4b57861b0/transformed/activity-compose-1.9.3/res
+com.example.shelfie.app-activity-ktx-1.9.3-53 /Users/saifa/.gradle/caches/8.9/transforms/dac5fe402c24b72f86850f5a92a955a0/transformed/activity-ktx-1.9.3/res
+com.example.shelfie.app-activity-1.9.3-54 /Users/saifa/.gradle/caches/8.9/transforms/dadc691292de58e932da3771fbf9c7c6/transformed/activity-1.9.3/res
+com.example.shelfie.app-lifecycle-process-2.8.7-55 /Users/saifa/.gradle/caches/8.9/transforms/e1029c05b82916075c4f32454b76851b/transformed/lifecycle-process-2.8.7/res
+com.example.shelfie.app-customview-poolingcontainer-1.0.0-56 /Users/saifa/.gradle/caches/8.9/transforms/e1844c0efec8497ab00c01b4a14a0afb/transformed/customview-poolingcontainer-1.0.0/res
+com.example.shelfie.app-navigation-runtime-ktx-2.8.5-57 /Users/saifa/.gradle/caches/8.9/transforms/eccd0e661355055d61639964558e3e2a/transformed/navigation-runtime-ktx-2.8.5/res
+com.example.shelfie.app-ui-text-release-58 /Users/saifa/.gradle/caches/8.9/transforms/ef3258ab6dfc6c37df8a49a00c3607a2/transformed/ui-text-release/res
+com.example.shelfie.app-lifecycle-livedata-core-2.8.7-59 /Users/saifa/.gradle/caches/8.9/transforms/f0f2d0199f3869501aa588d6e3bdfe05/transformed/lifecycle-livedata-core-2.8.7/res
+com.example.shelfie.app-foundation-layout-release-60 /Users/saifa/.gradle/caches/8.9/transforms/f47267cf925ceccc2fb3f60a5065975c/transformed/foundation-layout-release/res
+com.example.shelfie.app-core-ktx-1.15.0-61 /Users/saifa/.gradle/caches/8.9/transforms/f6005bda9b903ccf01647ac512039d74/transformed/core-ktx-1.15.0/res
+com.example.shelfie.app-profileinstaller-1.3.1-62 /Users/saifa/.gradle/caches/8.9/transforms/fc6fb071fe6447b51ea669eed156835a/transformed/profileinstaller-1.3.1/res
+com.example.shelfie.app-material-icons-core-release-63 /Users/saifa/.gradle/caches/8.9/transforms/fe0b5c5963fd03f153f502e3927e69b0/transformed/material-icons-core-release/res
+com.example.shelfie.app-pngs-64 /Users/saifa/Downloads/Shelfie 2/app/build/generated/res/pngs/debug
+com.example.shelfie.app-res-65 /Users/saifa/Downloads/Shelfie 2/app/build/generated/res/processDebugGoogleServices
+com.example.shelfie.app-resValues-66 /Users/saifa/Downloads/Shelfie 2/app/build/generated/res/resValues/debug
+com.example.shelfie.app-packageDebugResources-67 /Users/saifa/Downloads/Shelfie 2/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.shelfie.app-packageDebugResources-68 /Users/saifa/Downloads/Shelfie 2/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.shelfie.app-debug-69 /Users/saifa/Downloads/Shelfie 2/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.example.shelfie.app-debug-70 /Users/saifa/Downloads/Shelfie 2/app/src/debug/res
+com.example.shelfie.app-main-71 /Users/saifa/Downloads/Shelfie 2/app/src/main/res

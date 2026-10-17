@@ -28,6 +28,7 @@ import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material.icons.outlined.ErrorOutline
 import androidx.compose.material.icons.outlined.Visibility
 import androidx.compose.material.icons.outlined.VisibilityOff
+import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -89,6 +90,13 @@ fun AuthScreen(vm: AppViewModel) {
     var showPassword by rememberSaveable { mutableStateOf(false) }
     var loading by remember { mutableStateOf(false) }
     var error by remember { mutableStateOf<AuthResult.Failure?>(null) }
+
+    // Forgot password dialog states
+    var showResetDialog by remember { mutableStateOf(false) }
+    var resetEmail by rememberSaveable { mutableStateOf("") }
+    var resetLoading by remember { mutableStateOf(false) }
+    var resetMessage by remember { mutableStateOf<String?>(null) }
+    var resetError by remember { mutableStateOf<String?>(null) }
 
     fun submit() {
         if (loading) return
@@ -155,6 +163,25 @@ fun AuthScreen(vm: AppViewModel) {
                         imeAction = if (isRegister) ImeAction.Next else ImeAction.Done,
                         onDone = { submit() },
                     )
+
+                    if (!isRegister) {
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.End
+                        ) {
+                            TextButton(
+                                onClick = {
+                                    resetEmail = email
+                                    resetMessage = null
+                                    resetError = null
+                                    showResetDialog = true
+                                }
+                            ) {
+                                Text("ลืมรหัสผ่าน?", color = Ink, style = MaterialTheme.typography.labelMedium)
+                            }
+                        }
+                    }
+
                     if (isRegister) {
                         AuthField(
                             "ยืนยันรหัสผ่าน", confirm, { confirm = it }, "พิมพ์รหัสผ่านอีกครั้ง",
@@ -211,6 +238,75 @@ fun AuthScreen(vm: AppViewModel) {
                 style = MaterialTheme.typography.bodySmall,
                 color = Muted,
                 textAlign = TextAlign.Center,
+            )
+        }
+
+        if (showResetDialog) {
+            AlertDialog(
+                onDismissRequest = { if (!resetLoading) showResetDialog = false },
+                title = { Text("ลืมรหัสผ่าน", fontFamily = TitleSerif, fontSize = 24.sp, color = Ink) },
+                text = {
+                    Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                        Text(
+                            "กรอกอีเมลของคุณเพื่อรับลิงก์รีเซ็ตรหัสผ่านผ่านทางอีเมล",
+                            style = MaterialTheme.typography.bodyMedium,
+                            color = InkMuted
+                        )
+                        OutlinedTextField(
+                            value = resetEmail,
+                            onValueChange = { resetEmail = it; resetError = null; resetMessage = null },
+                            label = { Text("อีเมล") },
+                            placeholder = { Text("you@example.com", color = Muted) },
+                            singleLine = true,
+                            shape = RoundedCornerShape(14.dp),
+                            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email),
+                            colors = OutlinedTextFieldDefaults.colors(
+                                focusedBorderColor = Ink,
+                                unfocusedBorderColor = FieldLine,
+                                focusedLabelColor = Ink,
+                                cursorColor = Ink,
+                            ),
+                            modifier = Modifier.fillMaxWidth()
+                        )
+                        resetMessage?.let { msg ->
+                            Text(msg, color = MaterialTheme.colorScheme.primary, style = MaterialTheme.typography.bodySmall)
+                        }
+                        resetError?.let { err ->
+                            Text(err, color = ErrorInk, style = MaterialTheme.typography.bodySmall)
+                        }
+                    }
+                },
+                confirmButton = {
+                    PrimaryButton(
+                        text = "ส่งลิงก์รีเซ็ต",
+                        loading = resetLoading,
+                        onClick = {
+                            if (resetLoading) return@PrimaryButton
+                            resetLoading = true
+                            resetError = null
+                            resetMessage = null
+                            scope.launch {
+                                val res = vm.sendPasswordResetEmail(resetEmail)
+                                resetLoading = false
+                                if (res is AuthResult.Success) {
+                                    resetMessage = "ส่งลิงก์รีเซ็ตรหัสผ่านไปยัง $resetEmail เรียบร้อยแล้ว กรุณาตรวจสอบอีเมลของคุณ"
+                                } else if (res is AuthResult.Failure) {
+                                    resetError = res.message
+                                }
+                            }
+                        }
+                    )
+                },
+                dismissButton = {
+                    TextButton(
+                        onClick = { showResetDialog = false },
+                        enabled = !resetLoading
+                    ) {
+                        Text("ยกเลิก", color = InkMuted)
+                    }
+                },
+                shape = RoundedCornerShape(20.dp),
+                containerColor = Color.White
             )
         }
     }
@@ -298,7 +394,6 @@ private fun ErrorBox(failure: AuthResult.Failure, onSwitch: () -> Unit) {
                 Text(failure.message, color = ErrorInk, style = MaterialTheme.typography.bodyMedium)
                 val action = when (failure.kind) {
                     AuthErrorKind.NOT_REGISTERED -> "สมัครสมาชิกด้วยอีเมลนี้"
-                    AuthErrorKind.ALREADY_REGISTERED -> "ไปหน้าเข้าสู่ระบบ"
                     else -> null
                 }
                 if (action != null) {

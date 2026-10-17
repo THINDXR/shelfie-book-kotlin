@@ -36,7 +36,7 @@ class FirebaseAuthRepository : AuthRepository {
         user.updateProfile(nameChange(name)).awaitTask()
         AuthResult.Success(AuthUser(user.uid, user.email ?: email.trim(), name.trim()))
     } catch (e: FirebaseAuthUserCollisionException) {
-        AuthResult.Failure(AuthErrorKind.ALREADY_REGISTERED, "อีเมลนี้เคยสมัครสมาชิกไว้แล้ว เข้าสู่ระบบด้วยอีเมลนี้ได้เลย")
+        AuthResult.Failure(AuthErrorKind.ALREADY_REGISTERED, "อีเมลนี้เคยสมัครสมาชิกไว้แล้ว")
     } catch (e: FirebaseAuthWeakPasswordException) {
         AuthResult.Failure(AuthErrorKind.INVALID_INPUT, "รหัสผ่านง่ายเกินไป ลองใช้รหัสที่ยาวขึ้น")
     } catch (e: FirebaseAuthInvalidCredentialsException) {
@@ -62,6 +62,19 @@ class FirebaseAuthRepository : AuthRepository {
         AuthResult.Failure(AuthErrorKind.NETWORK, "เชื่อมต่ออินเทอร์เน็ตไม่ได้ ลองใหม่อีกครั้ง")
     } catch (e: Exception) {
         AuthResult.Failure(AuthErrorKind.UNKNOWN, "เข้าสู่ระบบไม่สำเร็จ: ${e.localizedMessage}")
+    }
+
+    override suspend fun sendPasswordResetEmail(email: String): AuthResult = try {
+        auth.sendPasswordResetEmail(email.trim()).awaitTask()
+        AuthResult.Success(AuthUser("", email.trim(), ""))
+    } catch (e: FirebaseAuthInvalidUserException) {
+        AuthResult.Failure(AuthErrorKind.NOT_REGISTERED, "ไม่พบบัญชีที่ใช้อีเมลนี้ในระบบ")
+    } catch (e: FirebaseAuthInvalidCredentialsException) {
+        AuthResult.Failure(AuthErrorKind.INVALID_INPUT, "รูปแบบอีเมลไม่ถูกต้อง")
+    } catch (e: FirebaseNetworkException) {
+        AuthResult.Failure(AuthErrorKind.NETWORK, "เชื่อมต่ออินเทอร์เน็ตไม่ได้ ลองใหม่อีกครั้ง")
+    } catch (e: Exception) {
+        AuthResult.Failure(AuthErrorKind.UNKNOWN, "ส่งอีเมลไม่สำเร็จ: ${e.localizedMessage}")
     }
 
     override suspend fun updateDisplayName(name: String) {

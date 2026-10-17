@@ -29,6 +29,7 @@ interface AuthRepository {
     fun currentUser(): AuthUser?
     suspend fun register(name: String, email: String, password: String): AuthResult
     suspend fun login(email: String, password: String): AuthResult
+    suspend fun sendPasswordResetEmail(email: String): AuthResult
     suspend fun updateDisplayName(name: String)
     fun logout()
 }
@@ -41,7 +42,7 @@ object AuthValidator {
     fun check(email: String, password: String): AuthResult.Failure? = when {
         !emailRegex.matches(normalizeEmail(email)) ->
             AuthResult.Failure(AuthErrorKind.INVALID_INPUT, "รูปแบบอีเมลไม่ถูกต้อง")
-        password.length < 6 ->
+        password.length < 6->
             AuthResult.Failure(AuthErrorKind.INVALID_INPUT, "รหัสผ่านต้องมีอย่างน้อย 6 ตัวอักษร")
         else -> null
     }

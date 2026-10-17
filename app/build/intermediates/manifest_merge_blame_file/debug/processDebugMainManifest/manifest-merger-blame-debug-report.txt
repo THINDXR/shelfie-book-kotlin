@@ -1,0 +1,413 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.shelfie"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/saifa/Downloads/Shelfie 2/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/saifa/Downloads/Shelfie 2/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:26:5-79
+12-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:26:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/saifa/.gradle/caches/8.9/transforms/165ecaeacd681ffe09cb5ebb91b32ed9/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:25:5-68
+13-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/saifa/.gradle/caches/8.9/transforms/165ecaeacd681ffe09cb5ebb91b32ed9/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:25:22-65
+14    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+14-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/saifa/.gradle/caches/8.9/transforms/165ecaeacd681ffe09cb5ebb91b32ed9/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:26:5-110
+14-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/saifa/.gradle/caches/8.9/transforms/165ecaeacd681ffe09cb5ebb91b32ed9/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:26:22-107
+15    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+15-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/saifa/.gradle/caches/8.9/transforms/0d66420a0ebac36255c3ae5c84a6e18b/transformed/play-services-measurement-api-22.1.2/AndroidManifest.xml:25:5-79
+15-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/saifa/.gradle/caches/8.9/transforms/0d66420a0ebac36255c3ae5c84a6e18b/transformed/play-services-measurement-api-22.1.2/AndroidManifest.xml:25:22-76
+16    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+16-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/saifa/.gradle/caches/8.9/transforms/0d66420a0ebac36255c3ae5c84a6e18b/transformed/play-services-measurement-api-22.1.2/AndroidManifest.xml:26:5-88
+16-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/saifa/.gradle/caches/8.9/transforms/0d66420a0ebac36255c3ae5c84a6e18b/transformed/play-services-measurement-api-22.1.2/AndroidManifest.xml:26:22-85
+17    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+17-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/saifa/.gradle/caches/8.9/transforms/0d66420a0ebac36255c3ae5c84a6e18b/transformed/play-services-measurement-api-22.1.2/AndroidManifest.xml:27:5-82
+17-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/saifa/.gradle/caches/8.9/transforms/0d66420a0ebac36255c3ae5c84a6e18b/transformed/play-services-measurement-api-22.1.2/AndroidManifest.xml:27:22-79
+18    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+18-->[com.google.android.recaptcha:recaptcha:18.5.1] /Users/saifa/.gradle/caches/8.9/transforms/31cd0f52a500289480e82d0435afd708/transformed/recaptcha-18.5.1/AndroidManifest.xml:9:5-98
+18-->[com.google.android.recaptcha:recaptcha:18.5.1] /Users/saifa/.gradle/caches/8.9/transforms/31cd0f52a500289480e82d0435afd708/transformed/recaptcha-18.5.1/AndroidManifest.xml:9:22-95
+19
+20    <permission
+20-->[androidx.core:core:1.15.0] /Users/saifa/.gradle/caches/8.9/transforms/b08ad991addc0f502c24ce65eb59c015/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+21        android:name="com.example.shelfie.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.15.0] /Users/saifa/.gradle/caches/8.9/transforms/b08ad991addc0f502c24ce65eb59c015/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.15.0] /Users/saifa/.gradle/caches/8.9/transforms/b08ad991addc0f502c24ce65eb59c015/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.example.shelfie.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.15.0] /Users/saifa/.gradle/caches/8.9/transforms/b08ad991addc0f502c24ce65eb59c015/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.15.0] /Users/saifa/.gradle/caches/8.9/transforms/b08ad991addc0f502c24ce65eb59c015/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->/Users/saifa/Downloads/Shelfie 2/app/src/main/AndroidManifest.xml:6:5-22:19
+27        android:allowBackup="true"
+27-->/Users/saifa/Downloads/Shelfie 2/app/src/main/AndroidManifest.xml:7:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.15.0] /Users/saifa/.gradle/caches/8.9/transforms/b08ad991addc0f502c24ce65eb59c015/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:icon="@mipmap/ic_launcher"
+31-->/Users/saifa/Downloads/Shelfie 2/app/src/main/AndroidManifest.xml:8:9-43
+32        android:label="@string/app_name"
+32-->/Users/saifa/Downloads/Shelfie 2/app/src/main/AndroidManifest.xml:10:9-41
+33        android:roundIcon="@mipmap/ic_launcher"
+33-->/Users/saifa/Downloads/Shelfie 2/app/src/main/AndroidManifest.xml:9:9-48
+34        android:supportsRtl="true"
+34-->/Users/saifa/Downloads/Shelfie 2/app/src/main/AndroidManifest.xml:11:9-35
+35        android:theme="@style/Theme.Shelfie" >
+35-->/Users/saifa/Downloads/Shelfie 2/app/src/main/AndroidManifest.xml:12:9-45
+36        <activity
+36-->/Users/saifa/Downloads/Shelfie 2/app/src/main/AndroidManifest.xml:13:9-21:20
+37            android:name="com.example.shelfie.MainActivity"
+37-->/Users/saifa/Downloads/Shelfie 2/app/src/main/AndroidManifest.xml:14:13-41
+38            android:exported="true"
+38-->/Users/saifa/Downloads/Shelfie 2/app/src/main/AndroidManifest.xml:15:13-36
+39            android:windowSoftInputMode="adjustResize" >
+39-->/Users/saifa/Downloads/Shelfie 2/app/src/main/AndroidManifest.xml:16:13-55
+40            <intent-filter>
+40-->/Users/saifa/Downloads/Shelfie 2/app/src/main/AndroidManifest.xml:17:13-20:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->/Users/saifa/Downloads/Shelfie 2/app/src/main/AndroidManifest.xml:18:17-69
+41-->/Users/saifa/Downloads/Shelfie 2/app/src/main/AndroidManifest.xml:18:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/Users/saifa/Downloads/Shelfie 2/app/src/main/AndroidManifest.xml:19:17-77
+43-->/Users/saifa/Downloads/Shelfie 2/app/src/main/AndroidManifest.xml:19:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity
+46-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:29:9-46:20
+47            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+47-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:30:13-80
+48            android:excludeFromRecents="true"
+48-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:31:13-46
+49            android:exported="true"
+49-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:32:13-36
+50            android:launchMode="singleTask"
+50-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:33:13-44
+51            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+51-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:34:13-72
+52            <intent-filter>
+52-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:35:13-45:29
+53                <action android:name="android.intent.action.VIEW" />
+53-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:36:17-69
+53-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:36:25-66
+54
+55                <category android:name="android.intent.category.DEFAULT" />
+55-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:38:17-76
+55-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:38:27-73
+56                <category android:name="android.intent.category.BROWSABLE" />
+56-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:39:17-78
+56-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:39:27-75
+57
+58                <data
+58-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:41:17-44:51
+59                    android:host="firebase.auth"
+59-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:42:21-49
+60                    android:path="/"
+60-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:43:21-37
+61                    android:scheme="genericidp" />
+61-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:44:21-48
+62            </intent-filter>
+63        </activity>
+64        <activity
+64-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:47:9-64:20
+65            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+65-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:48:13-79
+66            android:excludeFromRecents="true"
+66-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:49:13-46
+67            android:exported="true"
+67-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:50:13-36
+68            android:launchMode="singleTask"
+68-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:51:13-44
+69            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+69-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:52:13-72
+70            <intent-filter>
+70-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:53:13-63:29
+71                <action android:name="android.intent.action.VIEW" />
+71-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:36:17-69
+71-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:36:25-66
+72
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:38:17-76
+73-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:38:27-73
+74                <category android:name="android.intent.category.BROWSABLE" />
+74-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:39:17-78
+74-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:39:27-75
+75
+76                <data
+76-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:41:17-44:51
+77                    android:host="firebase.auth"
+77-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:42:21-49
+78                    android:path="/"
+78-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:43:21-37
+79                    android:scheme="recaptcha" />
+79-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:44:21-48
+80            </intent-filter>
+81        </activity>
+82
+83        <service
+83-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:66:9-72:19
+84            android:name="com.google.firebase.components.ComponentDiscoveryService"
+84-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:67:13-84
+85            android:directBootAware="true"
+85-->[com.google.firebase:firebase-common:21.0.0] /Users/saifa/.gradle/caches/8.9/transforms/66c8747acd19d506a4caead91a330d55/transformed/firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+86            android:exported="false" >
+86-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:68:13-37
+87            <meta-data
+87-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:69:13-71:85
+88                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+88-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:70:17-109
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-auth:23.1.0] /Users/saifa/.gradle/caches/8.9/transforms/47ec7a5844d4826c5f4e1844636ed572/transformed/firebase-auth-23.1.0/AndroidManifest.xml:71:17-82
+90            <meta-data
+90-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/saifa/.gradle/caches/8.9/transforms/0d66420a0ebac36255c3ae5c84a6e18b/transformed/play-services-measurement-api-22.1.2/AndroidManifest.xml:37:13-39:85
+91                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+91-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/saifa/.gradle/caches/8.9/transforms/0d66420a0ebac36255c3ae5c84a6e18b/transformed/play-services-measurement-api-22.1.2/AndroidManifest.xml:38:17-139
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/saifa/.gradle/caches/8.9/transforms/0d66420a0ebac36255c3ae5c84a6e18b/transformed/play-services-measurement-api-22.1.2/AndroidManifest.xml:39:17-82
+93            <meta-data
+93-->[com.google.firebase:firebase-installations:18.0.0] /Users/saifa/.gradle/caches/8.9/transforms/d9bc18cd6fb9a9be5afb160071b71a7f/transformed/firebase-installations-18.0.0/AndroidManifest.xml:15:13-17:85
+94                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+94-->[com.google.firebase:firebase-installations:18.0.0] /Users/saifa/.gradle/caches/8.9/transforms/d9bc18cd6fb9a9be5afb160071b71a7f/transformed/firebase-installations-18.0.0/AndroidManifest.xml:16:17-130
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.firebase:firebase-installations:18.0.0] /Users/saifa/.gradle/caches/8.9/transforms/d9bc18cd6fb9a9be5afb160071b71a7f/transformed/firebase-installations-18.0.0/AndroidManifest.xml:17:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-installations:18.0.0] /Users/saifa/.gradle/caches/8.9/transforms/d9bc18cd6fb9a9be5afb160071b71a7f/transformed/firebase-installations-18.0.0/AndroidManifest.xml:18:13-20:85
+97                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+97-->[com.google.firebase:firebase-installations:18.0.0] /Users/saifa/.gradle/caches/8.9/transforms/d9bc18cd6fb9a9be5afb160071b71a7f/transformed/firebase-installations-18.0.0/AndroidManifest.xml:19:17-127
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-installations:18.0.0] /Users/saifa/.gradle/caches/8.9/transforms/d9bc18cd6fb9a9be5afb160071b71a7f/transformed/firebase-installations-18.0.0/AndroidManifest.xml:20:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/saifa/.gradle/caches/8.9/transforms/4e0d2bbf1ebfe602710c792372f07aa5/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+100                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+100-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/saifa/.gradle/caches/8.9/transforms/4e0d2bbf1ebfe602710c792372f07aa5/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/saifa/.gradle/caches/8.9/transforms/4e0d2bbf1ebfe602710c792372f07aa5/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-common:21.0.0] /Users/saifa/.gradle/caches/8.9/transforms/66c8747acd19d506a4caead91a330d55/transformed/firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+103                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+103-->[com.google.firebase:firebase-common:21.0.0] /Users/saifa/.gradle/caches/8.9/transforms/66c8747acd19d506a4caead91a330d55/transformed/firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-common:21.0.0] /Users/saifa/.gradle/caches/8.9/transforms/66c8747acd19d506a4caead91a330d55/transformed/firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+105        </service>
+106
+107        <receiver
+107-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/saifa/.gradle/caches/8.9/transforms/165ecaeacd681ffe09cb5ebb91b32ed9/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:29:9-33:20
+108            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+108-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/saifa/.gradle/caches/8.9/transforms/165ecaeacd681ffe09cb5ebb91b32ed9/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:30:13-85
+109            android:enabled="true"
+109-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/saifa/.gradle/caches/8.9/transforms/165ecaeacd681ffe09cb5ebb91b32ed9/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:31:13-35
+110            android:exported="false" >
+110-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/saifa/.gradle/caches/8.9/transforms/165ecaeacd681ffe09cb5ebb91b32ed9/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:32:13-37
+111        </receiver>
+112
+113        <service
+113-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/saifa/.gradle/caches/8.9/transforms/165ecaeacd681ffe09cb5ebb91b32ed9/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:35:9-38:40
+114            android:name="com.google.android.gms.measurement.AppMeasurementService"
+114-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/saifa/.gradle/caches/8.9/transforms/165ecaeacd681ffe09cb5ebb91b32ed9/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:36:13-84
+115            android:enabled="true"
+115-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/saifa/.gradle/caches/8.9/transforms/165ecaeacd681ffe09cb5ebb91b32ed9/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:37:13-35
+116            android:exported="false" />
+116-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/saifa/.gradle/caches/8.9/transforms/165ecaeacd681ffe09cb5ebb91b32ed9/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:38:13-37
+117        <service
+117-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/saifa/.gradle/caches/8.9/transforms/165ecaeacd681ffe09cb5ebb91b32ed9/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:39:9-43:72
+118            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+118-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/saifa/.gradle/caches/8.9/transforms/165ecaeacd681ffe09cb5ebb91b32ed9/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:40:13-87
+119            android:enabled="true"
+119-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/saifa/.gradle/caches/8.9/transforms/165ecaeacd681ffe09cb5ebb91b32ed9/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:41:13-35
+120            android:exported="false"
+120-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/saifa/.gradle/caches/8.9/transforms/165ecaeacd681ffe09cb5ebb91b32ed9/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:42:13-37
+121            android:permission="android.permission.BIND_JOB_SERVICE" />
+121-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/saifa/.gradle/caches/8.9/transforms/165ecaeacd681ffe09cb5ebb91b32ed9/transformed/play-services-measurement-22.1.2/AndroidManifest.xml:43:13-69
+122
+123        <property
+123-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/saifa/.gradle/caches/8.9/transforms/0d66420a0ebac36255c3ae5c84a6e18b/transformed/play-services-measurement-api-22.1.2/AndroidManifest.xml:30:9-32:61
+124            android:name="android.adservices.AD_SERVICES_CONFIG"
+124-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/saifa/.gradle/caches/8.9/transforms/0d66420a0ebac36255c3ae5c84a6e18b/transformed/play-services-measurement-api-22.1.2/AndroidManifest.xml:31:13-65
+125            android:resource="@xml/ga_ad_services_config" />
+125-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/saifa/.gradle/caches/8.9/transforms/0d66420a0ebac36255c3ae5c84a6e18b/transformed/play-services-measurement-api-22.1.2/AndroidManifest.xml:32:13-58
+126
+127        <service
+127-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/saifa/.gradle/caches/8.9/transforms/54af34ce44cf3b1fbbfdafbfc0a823f8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:24:9-32:19
+128            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+128-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/saifa/.gradle/caches/8.9/transforms/54af34ce44cf3b1fbbfdafbfc0a823f8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:25:13-94
+129            android:enabled="true"
+129-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/saifa/.gradle/caches/8.9/transforms/54af34ce44cf3b1fbbfdafbfc0a823f8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:26:13-35
+130            android:exported="false" >
+130-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/saifa/.gradle/caches/8.9/transforms/54af34ce44cf3b1fbbfdafbfc0a823f8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:27:13-37
+131            <meta-data
+131-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/saifa/.gradle/caches/8.9/transforms/54af34ce44cf3b1fbbfdafbfc0a823f8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:29:13-31:104
+132                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+132-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/saifa/.gradle/caches/8.9/transforms/54af34ce44cf3b1fbbfdafbfc0a823f8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:30:17-76
+133                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+133-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/saifa/.gradle/caches/8.9/transforms/54af34ce44cf3b1fbbfdafbfc0a823f8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:31:17-101
+134        </service>
+135
+136        <activity
+136-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/saifa/.gradle/caches/8.9/transforms/54af34ce44cf3b1fbbfdafbfc0a823f8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:34:9-41:20
+137            android:name="androidx.credentials.playservices.HiddenActivity"
+137-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/saifa/.gradle/caches/8.9/transforms/54af34ce44cf3b1fbbfdafbfc0a823f8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:35:13-76
+138            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+138-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/saifa/.gradle/caches/8.9/transforms/54af34ce44cf3b1fbbfdafbfc0a823f8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:36:13-87
+139            android:enabled="true"
+139-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/saifa/.gradle/caches/8.9/transforms/54af34ce44cf3b1fbbfdafbfc0a823f8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:37:13-35
+140            android:exported="false"
+140-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/saifa/.gradle/caches/8.9/transforms/54af34ce44cf3b1fbbfdafbfc0a823f8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:38:13-37
+141            android:fitsSystemWindows="true"
+141-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/saifa/.gradle/caches/8.9/transforms/54af34ce44cf3b1fbbfdafbfc0a823f8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:39:13-45
+142            android:theme="@style/Theme.Hidden" >
+142-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/saifa/.gradle/caches/8.9/transforms/54af34ce44cf3b1fbbfdafbfc0a823f8/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:40:13-48
+143        </activity>
+144        <activity
+144-->[com.google.android.gms:play-services-auth:20.7.0] /Users/saifa/.gradle/caches/8.9/transforms/9d1a7beae7c79e97fc17589914872b28/transformed/play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+145            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+145-->[com.google.android.gms:play-services-auth:20.7.0] /Users/saifa/.gradle/caches/8.9/transforms/9d1a7beae7c79e97fc17589914872b28/transformed/play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+146            android:excludeFromRecents="true"
+146-->[com.google.android.gms:play-services-auth:20.7.0] /Users/saifa/.gradle/caches/8.9/transforms/9d1a7beae7c79e97fc17589914872b28/transformed/play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+147            android:exported="false"
+147-->[com.google.android.gms:play-services-auth:20.7.0] /Users/saifa/.gradle/caches/8.9/transforms/9d1a7beae7c79e97fc17589914872b28/transformed/play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+148            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+148-->[com.google.android.gms:play-services-auth:20.7.0] /Users/saifa/.gradle/caches/8.9/transforms/9d1a7beae7c79e97fc17589914872b28/transformed/play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+149        <!--
+150            Service handling Google Sign-In user revocation. For apps that do not integrate with
+151            Google Sign-In, this service will never be started.
+152        -->
+153        <service
+153-->[com.google.android.gms:play-services-auth:20.7.0] /Users/saifa/.gradle/caches/8.9/transforms/9d1a7beae7c79e97fc17589914872b28/transformed/play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+154            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+154-->[com.google.android.gms:play-services-auth:20.7.0] /Users/saifa/.gradle/caches/8.9/transforms/9d1a7beae7c79e97fc17589914872b28/transformed/play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+155            android:exported="true"
+155-->[com.google.android.gms:play-services-auth:20.7.0] /Users/saifa/.gradle/caches/8.9/transforms/9d1a7beae7c79e97fc17589914872b28/transformed/play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+156            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+156-->[com.google.android.gms:play-services-auth:20.7.0] /Users/saifa/.gradle/caches/8.9/transforms/9d1a7beae7c79e97fc17589914872b28/transformed/play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+157            android:visibleToInstantApps="true" />
+157-->[com.google.android.gms:play-services-auth:20.7.0] /Users/saifa/.gradle/caches/8.9/transforms/9d1a7beae7c79e97fc17589914872b28/transformed/play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+158
+159        <provider
+159-->[com.google.firebase:firebase-common:21.0.0] /Users/saifa/.gradle/caches/8.9/transforms/66c8747acd19d506a4caead91a330d55/transformed/firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+160            android:name="com.google.firebase.provider.FirebaseInitProvider"
+160-->[com.google.firebase:firebase-common:21.0.0] /Users/saifa/.gradle/caches/8.9/transforms/66c8747acd19d506a4caead91a330d55/transformed/firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+161            android:authorities="com.example.shelfie.firebaseinitprovider"
+161-->[com.google.firebase:firebase-common:21.0.0] /Users/saifa/.gradle/caches/8.9/transforms/66c8747acd19d506a4caead91a330d55/transformed/firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+162            android:directBootAware="true"
+162-->[com.google.firebase:firebase-common:21.0.0] /Users/saifa/.gradle/caches/8.9/transforms/66c8747acd19d506a4caead91a330d55/transformed/firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+163            android:exported="false"
+163-->[com.google.firebase:firebase-common:21.0.0] /Users/saifa/.gradle/caches/8.9/transforms/66c8747acd19d506a4caead91a330d55/transformed/firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+164            android:initOrder="100" />
+164-->[com.google.firebase:firebase-common:21.0.0] /Users/saifa/.gradle/caches/8.9/transforms/66c8747acd19d506a4caead91a330d55/transformed/firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+165
+166        <activity
+166-->[androidx.compose.ui:ui-tooling-android:1.7.6] /Users/saifa/.gradle/caches/8.9/transforms/9b5d527c462fef0f7de2de9225d587ff/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+167            android:name="androidx.compose.ui.tooling.PreviewActivity"
+167-->[androidx.compose.ui:ui-tooling-android:1.7.6] /Users/saifa/.gradle/caches/8.9/transforms/9b5d527c462fef0f7de2de9225d587ff/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+168            android:exported="true" />
+168-->[androidx.compose.ui:ui-tooling-android:1.7.6] /Users/saifa/.gradle/caches/8.9/transforms/9b5d527c462fef0f7de2de9225d587ff/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+169
+170        <provider
+170-->[androidx.emoji2:emoji2:1.3.0] /Users/saifa/.gradle/caches/8.9/transforms/ce71da9dec8819b1a5a50f04e01f93e3/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+171            android:name="androidx.startup.InitializationProvider"
+171-->[androidx.emoji2:emoji2:1.3.0] /Users/saifa/.gradle/caches/8.9/transforms/ce71da9dec8819b1a5a50f04e01f93e3/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+172            android:authorities="com.example.shelfie.androidx-startup"
+172-->[androidx.emoji2:emoji2:1.3.0] /Users/saifa/.gradle/caches/8.9/transforms/ce71da9dec8819b1a5a50f04e01f93e3/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+173            android:exported="false" >
+173-->[androidx.emoji2:emoji2:1.3.0] /Users/saifa/.gradle/caches/8.9/transforms/ce71da9dec8819b1a5a50f04e01f93e3/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+174            <meta-data
+174-->[androidx.emoji2:emoji2:1.3.0] /Users/saifa/.gradle/caches/8.9/transforms/ce71da9dec8819b1a5a50f04e01f93e3/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+175                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+175-->[androidx.emoji2:emoji2:1.3.0] /Users/saifa/.gradle/caches/8.9/transforms/ce71da9dec8819b1a5a50f04e01f93e3/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+176                android:value="androidx.startup" />
+176-->[androidx.emoji2:emoji2:1.3.0] /Users/saifa/.gradle/caches/8.9/transforms/ce71da9dec8819b1a5a50f04e01f93e3/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+177            <meta-data
+177-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/saifa/.gradle/caches/8.9/transforms/e1029c05b82916075c4f32454b76851b/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+178                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+178-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/saifa/.gradle/caches/8.9/transforms/e1029c05b82916075c4f32454b76851b/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+179                android:value="androidx.startup" />
+179-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/saifa/.gradle/caches/8.9/transforms/e1029c05b82916075c4f32454b76851b/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+180            <meta-data
+180-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/saifa/.gradle/caches/8.9/transforms/fc6fb071fe6447b51ea669eed156835a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+181                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+181-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/saifa/.gradle/caches/8.9/transforms/fc6fb071fe6447b51ea669eed156835a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+182                android:value="androidx.startup" />
+182-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/saifa/.gradle/caches/8.9/transforms/fc6fb071fe6447b51ea669eed156835a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+183        </provider>
+184
+185        <uses-library
+185-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/saifa/.gradle/caches/8.9/transforms/32317dc4afa057cd62642c97cb77bee6/transformed/ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+186            android:name="android.ext.adservices"
+186-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/saifa/.gradle/caches/8.9/transforms/32317dc4afa057cd62642c97cb77bee6/transformed/ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+187            android:required="false" />
+187-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/saifa/.gradle/caches/8.9/transforms/32317dc4afa057cd62642c97cb77bee6/transformed/ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+188
+189        <activity
+189-->[com.google.android.gms:play-services-base:18.5.0] /Users/saifa/.gradle/caches/8.9/transforms/928c159877481a103461667f9633685e/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+190            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+190-->[com.google.android.gms:play-services-base:18.5.0] /Users/saifa/.gradle/caches/8.9/transforms/928c159877481a103461667f9633685e/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+191            android:exported="false"
+191-->[com.google.android.gms:play-services-base:18.5.0] /Users/saifa/.gradle/caches/8.9/transforms/928c159877481a103461667f9633685e/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+192            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+192-->[com.google.android.gms:play-services-base:18.5.0] /Users/saifa/.gradle/caches/8.9/transforms/928c159877481a103461667f9633685e/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+193
+194        <meta-data
+194-->[com.google.android.gms:play-services-basement:18.4.0] /Users/saifa/.gradle/caches/8.9/transforms/86136019c396e5d55826237dc00f911a/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+195            android:name="com.google.android.gms.version"
+195-->[com.google.android.gms:play-services-basement:18.4.0] /Users/saifa/.gradle/caches/8.9/transforms/86136019c396e5d55826237dc00f911a/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+196            android:value="@integer/google_play_services_version" />
+196-->[com.google.android.gms:play-services-basement:18.4.0] /Users/saifa/.gradle/caches/8.9/transforms/86136019c396e5d55826237dc00f911a/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+197
+198        <receiver
+198-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/saifa/.gradle/caches/8.9/transforms/fc6fb071fe6447b51ea669eed156835a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+199            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+199-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/saifa/.gradle/caches/8.9/transforms/fc6fb071fe6447b51ea669eed156835a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+200            android:directBootAware="false"
+200-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/saifa/.gradle/caches/8.9/transforms/fc6fb071fe6447b51ea669eed156835a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+201            android:enabled="true"
+201-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/saifa/.gradle/caches/8.9/transforms/fc6fb071fe6447b51ea669eed156835a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+202            android:exported="true"
+202-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/saifa/.gradle/caches/8.9/transforms/fc6fb071fe6447b51ea669eed156835a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+203            android:permission="android.permission.DUMP" >
+203-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/saifa/.gradle/caches/8.9/transforms/fc6fb071fe6447b51ea669eed156835a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+204            <intent-filter>
+204-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/saifa/.gradle/caches/8.9/transforms/fc6fb071fe6447b51ea669eed156835a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+205                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+205-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/saifa/.gradle/caches/8.9/transforms/fc6fb071fe6447b51ea669eed156835a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+205-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/saifa/.gradle/caches/8.9/transforms/fc6fb071fe6447b51ea669eed156835a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+206            </intent-filter>
+207            <intent-filter>
+207-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/saifa/.gradle/caches/8.9/transforms/fc6fb071fe6447b51ea669eed156835a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+208                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+208-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/saifa/.gradle/caches/8.9/transforms/fc6fb071fe6447b51ea669eed156835a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+208-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/saifa/.gradle/caches/8.9/transforms/fc6fb071fe6447b51ea669eed156835a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+209            </intent-filter>
+210            <intent-filter>
+210-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/saifa/.gradle/caches/8.9/transforms/fc6fb071fe6447b51ea669eed156835a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+211                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+211-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/saifa/.gradle/caches/8.9/transforms/fc6fb071fe6447b51ea669eed156835a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+211-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/saifa/.gradle/caches/8.9/transforms/fc6fb071fe6447b51ea669eed156835a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+212            </intent-filter>
+213            <intent-filter>
+213-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/saifa/.gradle/caches/8.9/transforms/fc6fb071fe6447b51ea669eed156835a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+214                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+214-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/saifa/.gradle/caches/8.9/transforms/fc6fb071fe6447b51ea669eed156835a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+214-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/saifa/.gradle/caches/8.9/transforms/fc6fb071fe6447b51ea669eed156835a/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+215            </intent-filter>
+216        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
+217        <activity
+217-->[com.google.android.play:core-common:2.0.3] /Users/saifa/.gradle/caches/8.9/transforms/45993e9908eb632fbd3d30799def3832/transformed/core-common-2.0.3/AndroidManifest.xml:14:9-18:65
+218            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+218-->[com.google.android.play:core-common:2.0.3] /Users/saifa/.gradle/caches/8.9/transforms/45993e9908eb632fbd3d30799def3832/transformed/core-common-2.0.3/AndroidManifest.xml:15:13-93
+219            android:exported="false"
+219-->[com.google.android.play:core-common:2.0.3] /Users/saifa/.gradle/caches/8.9/transforms/45993e9908eb632fbd3d30799def3832/transformed/core-common-2.0.3/AndroidManifest.xml:16:13-37
+220            android:stateNotNeeded="true"
+220-->[com.google.android.play:core-common:2.0.3] /Users/saifa/.gradle/caches/8.9/transforms/45993e9908eb632fbd3d30799def3832/transformed/core-common-2.0.3/AndroidManifest.xml:17:13-42
+221            android:theme="@style/Theme.PlayCore.Transparent" />
+221-->[com.google.android.play:core-common:2.0.3] /Users/saifa/.gradle/caches/8.9/transforms/45993e9908eb632fbd3d30799def3832/transformed/core-common-2.0.3/AndroidManifest.xml:18:13-62
+222    </application>
+223
+224</manifest>

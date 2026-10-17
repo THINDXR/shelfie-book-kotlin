@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Three book spines on a shelf, drawn inside the 72dp safe zone of a 108dp adaptive icon. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path android:fillColor="#FFF8F3" android:pathData="M34,36h10v38h-10z" />
+    <path android:fillColor="#F4C9C4" android:pathData="M47,30h10v44h-10z" />
+    <path android:fillColor="#FFF8F3" android:pathData="M61.5,37.4l9.6,-2.6l9.4,35.6l-9.6,2.6z" />
+    <path android:fillColor="#FFF8F3" android:pathData="M30,75h50v3h-50z" />
+</vector>
