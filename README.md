@@ -93,8 +93,8 @@ com.example.shelfie
 ### ขั้นตอนการรันโปรเจกต์
 1. Clone โปรเจกต์นี้ลงในเครื่องของคุณ:
    ```bash
-   git clone https.github.com/THINDXR/Mobile-App.git
-   cd Mobile-App
+   git clone https://github.com/THINDXR/shelfie-book-kotlin.git
+   cd shelfie-book-kotlin
    ```
 2. เปิดโปรเจกต์ด้วย **Android Studio**
 3. รอให้ Gradle Sync เรียบร้อย
